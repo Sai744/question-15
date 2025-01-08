@@ -3,7 +3,7 @@ Investigate and resolve an EKS issue where pods cannot
  communicate with external services.
 
 
-# Check Pod Network Connectivity
+# Step:1 Check Pod Network Connectivity
 The first thing to check is whether the pods have proper networking access to external services (e.g., public APIs or services on the internet).
 __Issue investigated:__ pods cannot reach external services, such as websites or APIs, and diagnose whether the issue is network-related.
 __Resolved Steps:__ 
