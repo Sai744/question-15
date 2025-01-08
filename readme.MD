@@ -60,6 +60,8 @@ aws iam list-attached-role-policies --role-name <eks-node-role-name>
 Expected Outcome:
 IAM role should have the AmazonVPCFullAccess policy (or equivalent) to allow worker nodes to manage networking.
 
+![60](https://github.com/user-attachments/assets/2ed285c7-b4a4-4c47-85aa-53347558551c)
+
 
 
 
